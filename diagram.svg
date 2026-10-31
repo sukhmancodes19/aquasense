@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="720" height="300" fill="#ffffff"/>
+
+  <g>
+    <rect x="20" y="40" width="190" height="70" rx="10" fill="#EAF3DE" stroke="#3B6D11"/>
+    <text x="115" y="70" text-anchor="middle" font-size="15" font-weight="600" fill="#27500A">Soil moisture sensor</text>
+    <text x="115" y="92" text-anchor="middle" font-size="12" fill="#3B6D11">Capacitive, in the field</text>
+  </g>
+  <g>
+    <rect x="20" y="190" width="190" height="70" rx="10" fill="#E6F1FB" stroke="#185FA5"/>
+    <text x="115" y="220" text-anchor="middle" font-size="15" font-weight="600" fill="#0C447C">Pressure sensor</text>
+    <text x="115" y="242" text-anchor="middle" font-size="12" fill="#185FA5">On the water pipe</text>
+  </g>
+
+  <g>
+    <rect x="275" y="100" width="170" height="100" rx="10" fill="#F1EFE8" stroke="#5F5E5A"/>
+    <text x="360" y="140" text-anchor="middle" font-size="15" font-weight="600" fill="#2C2C2A">Microcontroller</text>
+    <text x="360" y="162" text-anchor="middle" font-size="12" fill="#5F5E5A">Arduino Uno</text>
+    <text x="360" y="180" text-anchor="middle" font-size="12" fill="#5F5E5A">reads + decides</text>
+  </g>
+
+  <g>
+    <rect x="510" y="40" width="190" height="70" rx="10" fill="#EAF3DE" stroke="#3B6D11"/>
+    <text x="605" y="70" text-anchor="middle" font-size="15" font-weight="600" fill="#27500A">Irrigation on / off</text>
+    <text x="605" y="92" text-anchor="middle" font-size="12" fill="#3B6D11">Water only when needed</text>
+  </g>
+  <g>
+    <rect x="510" y="190" width="190" height="70" rx="10" fill="#FCEBEB" stroke="#A32D2D"/>
+    <text x="605" y="220" text-anchor="middle" font-size="15" font-weight="600" fill="#791F1F">Leak alert</text>
+    <text x="605" y="242" text-anchor="middle" font-size="12" fill="#A32D2D">To farmer / municipality</text>
+  </g>
+
+  <path d="M210 75 H242 V130 H271" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M210 225 H242 V170 H271" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M445 130 H478 V75 H506" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M445 170 H478 V225 H506" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
+</svg>
